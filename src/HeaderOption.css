@@ -1,0 +1,19 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.headerOption:hover{
+    color: black;
+}
+
+
+.headerOption__title {
+    font-size: 12px;
+    font-weight: 400;
+}

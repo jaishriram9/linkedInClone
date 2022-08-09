@@ -1,0 +1,34 @@
+[debug] [2022-07-26T16:20:15.173Z] ----------------------------------------------------------------------
+[debug] [2022-07-26T16:20:15.177Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-07-26T16:20:15.177Z] CLI Version:   10.9.2
+[debug] [2022-07-26T16:20:15.177Z] Platform:      win32
+[debug] [2022-07-26T16:20:15.177Z] Node Version:  v14.17.3
+[debug] [2022-07-26T16:20:15.179Z] Time:          Tue Jul 26 2022 21:50:15 GMT+0530 (India Standard Time)
+[debug] [2022-07-26T16:20:15.179Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-26T16:20:15.274Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-26T16:20:15.274Z] > authorizing via signed-in user (choudharyany100@gmail.com)
+[debug] [2022-07-26T16:20:15.274Z] [iam] checking project linkedin-clone-4a2bb for permissions ["firebase.projects.get"]
+[debug] [2022-07-26T16:20:15.278Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-4a2bb:testIamPermissions [none]
+[debug] [2022-07-26T16:20:15.278Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-4a2bb:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-07-26T16:20:17.030Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-4a2bb:testIamPermissions 200
+[debug] [2022-07-26T16:20:17.030Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-4a2bb:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-07-26T16:20:17.032Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb [none]
+[debug] [2022-07-26T16:20:18.163Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb 200
+[debug] [2022-07-26T16:20:18.163Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb {"projectId":"linkedin-clone-4a2bb","projectNumber":"124999618094","displayName":"linkedin-clone","name":"projects/linkedin-clone-4a2bb","resources":{"hostingSite":"linkedin-clone-4a2bb","storageBucket":"linkedin-clone-4a2bb.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_bf322be2-df30-44e1-8007-73c91ebaa69d"}
+[info] 
+[info] === Serving from 'C:\Users\anita\Documents\REACT PROJECT\linkedInClone\linkedin-clone'...
+[info] 
+[debug] [2022-07-26T16:20:18.171Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/sites 
+[warn] !  Your requested "node" version "16" doesn't match your global version "14". Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"14\". Using node@14 from host."}}
+[debug] [2022-07-26T16:20:18.220Z] defaultcredentials: writing to file C:\Users\anita\AppData\Roaming\firebase\choudharyany100_gmail_com_application_default_credentials.json
+[debug] [2022-07-26T16:20:18.222Z] Setting GAC to C:\Users\anita\AppData\Roaming\firebase\choudharyany100_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\anita\\AppData\\Roaming\\firebase\\choudharyany100_gmail_com_application_default_credentials.json"}}
+[debug] [2022-07-26T16:20:18.223Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/adminSdkConfig [none]
+[debug] [2022-07-26T16:20:19.044Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/adminSdkConfig 200
+[debug] [2022-07-26T16:20:19.044Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/adminSdkConfig {"projectId":"linkedin-clone-4a2bb","storageBucket":"linkedin-clone-4a2bb.appspot.com","locationId":"us-central"}
+[debug] [2022-07-26T16:20:20.567Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/sites 200
+[debug] [2022-07-26T16:20:20.568Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/sites {"sites":[{"name":"projects/linkedin-clone-4a2bb/sites/linkedin-clone-4a2bb","defaultUrl":"https://linkedin-clone-4a2bb.web.app","appId":"1:124999618094:web:2b15f3b3665ffb2e3b19bf","type":"DEFAULT_SITE"}]}
+[debug] [2022-07-26T16:20:20.568Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/webApps/1:124999618094:web:2b15f3b3665ffb2e3b19bf/config [none]
+[debug] [2022-07-26T16:20:21.967Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/webApps/1:124999618094:web:2b15f3b3665ffb2e3b19bf/config 200
+[debug] [2022-07-26T16:20:21.967Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-4a2bb/webApps/1:124999618094:web:2b15f3b3665ffb2e3b19bf/config {"projectId":"linkedin-clone-4a2bb","appId":"1:124999618094:web:2b15f3b3665ffb2e3b19bf","storageBucket":"linkedin-clone-4a2bb.appspot.com","locationId":"us-central","apiKey":"AIzaSyBdV4k-HaK4V0hSI7iaElSGbsS2KI7dhxc","authDomain":"linkedin-clone-4a2bb.firebaseapp.com","messagingSenderId":"124999618094"}
+[info] i  functions: Watching "C:\Users\anita\Documents\REACT PROJECT\linkedInClone\linkedin-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\anita\\Documents\\REACT PROJECT\\linkedInClone\\linkedin-clone\\functions\" for Cloud Functions..."}}
